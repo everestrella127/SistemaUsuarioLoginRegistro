@@ -51,5 +51,7 @@ Tiene cumple con varias funcionalidades como:
 
 Ojo: la contraseña de MySQL que aparece en ConexionBD.java es solo un texto de ejemplo, cada persona debe de poner la suya antes de ejecutar el programa
 
+Dato curioso: Los colores de las ventanas fueron inspirados por los de la app de banreservas
+
 Esta es mi primera vez trabajando con MySQL y github, espero que mi tarea cumpla de manera satisfactoria con la rubrica! Muchas Gracias!
 
