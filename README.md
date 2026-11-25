@@ -1,16 +1,30 @@
-Buenas! Esta es mi tarea 4, en este readme explicare rapidamente como utilizar el programa:
+Buenas! Esta es mi tarea 4, en este readme explicare rapidamente como utilizar el programa 
+Primero, consta de varios requisitos como:
 
+* JDK 17 o superior
+  
+* MySQL Server 8 (o XAMPP con MySQL) y MySQL Workbench
+  
+* IntelliJ IDEA (u otro IDE con soporte para Maven)
+
+Ahora, para ejecutar el programa debes de:
 
 1- clonar el repositorio 
+
 2- crear la base de datos abriendo mysql workbench y ejecutando el script presente en la carpeta sql
-3- abrir el proyecto en IntelliJ (o IDE de preferencia) y ejecute el main 
+
+3- abrir el proyecto en IntelliJ IDEA (o IDE de preferencia con soporte para Maven) y ejecute el main 
 
 Para usar la aplicacion es de esta forma:
 
 1-La primera vez no hay usuarios, entonces, pulsa Crear cuenta nueva y completa el formulario.
+
 2- Vuelve al login, entra con tu usuario y contraseña y verás la lista de usuarios registrados.
+
 3-Usa Nuevo usuario para agregar más. Selecciona una fila y pulsa Actualizar o Eliminar para modificarla.
+
 4-Al actualizar, si dejas las contraseñas vacías se conserva la actual.
+
 5-Pulsa Cerrar sesión para volver al login.
 
 Tiene cumple con varias funcionalidades como:
@@ -35,6 +49,7 @@ Tiene cumple con varias funcionalidades como:
 
 10-Las contraseñas se guardan encriptadas (SHA-256), nunca en texto plano para mantener la seguridad
 
+Ojo: la contraseña de MySQL que aparece en ConexionBD.java es solo un texto de ejemplo, cada persona debe de poner la suya antes de ejecutar el programa
+
 Esta es mi primera vez trabajando con MySQL y github, espero que mi tarea cumpla de manera satisfactoria con la rubrica! Muchas Gracias!
 
-Ojo: la contraseña de MySQL que aparece en ConexionBD.java es solo un texto de ejemplo, cada persona debe de poner la suya antes de ejecutar el programa
