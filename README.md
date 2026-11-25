@@ -13,6 +13,28 @@ Para usar la aplicacion es de esta forma:
 4-Al actualizar, si dejas las contraseñas vacías se conserva la actual.
 5-Pulsa Cerrar sesión para volver al login.
 
+Tiene cumple con varias funcionalidades como:
+
+1-Login con usuario y contraseña. La contraseña se oculta mientras se escribe.
+
+2-Si falta el usuario o la contraseña, muestra el mensaje: "Debe ingresar su usuario y contraseña, si no está registrado debe registrarse".
+
+3-Registro con 7 campos obligatorios: nombre de usuario, nombre, apellido, teléfono, correo electrónico, contraseña y confirmar contraseña.
+
+4-Si falta algún campo, un mensaje indica cuáles faltan.
+
+5-Si la contraseña y la confirmación no coinciden, muestra un error.
+
+6-Valida que el teléfono tenga 10 números, que el correo tenga un formato válido y que el nombre de usuario no esté repetido.
+
+7-Al iniciar sesión correctamente, se cierra el login y se abre la pantalla principal con la lista de usuarios (nombre, apellido, teléfono, correo y usuario).
+
+8-Nuevo usuario, Actualizar y Eliminar usuarios. Los cambios se ven automáticamente en la tabla.
+
+9-Botón Cerrar sesión, que vuelve a mostrar el login.
+
+10-Las contraseñas se guardan encriptadas (SHA-256), nunca en texto plano para mantener la seguridad
+
 Esta es mi primera vez trabajando con MySQL y github, espero que mi tarea cumpla de manera satisfactoria con la rubrica! Muchas Gracias!
 
 Ojo: la contraseña de MySQL que aparece en ConexionBD.java es solo un texto de ejemplo, cada persona debe de poner la suya antes de ejecutar el programa
